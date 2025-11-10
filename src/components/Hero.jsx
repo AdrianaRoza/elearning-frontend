@@ -23,7 +23,7 @@ function Hero(){
 
             <div className="flex-1 flex justify-center">
               <div className="w-64 h-64 bg-white rounded-full shadow-lg flex items-center justify-center">
-                <span className="text-purple-600 font-bold">Imagem do herói</span>
+                <span className="text-purple-600 font-bold">Imagem</span>
               </div>
             </div>
         </header>
