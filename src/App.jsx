@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-    <div className="min-h-screen bg-linear-to-b from-indigo-500 to-purple-600">
+    <div className="min-h-screen bg-linear-to-b from-pink-300 to-pink-500">
       <Home/>
     </div>
     </>
