@@ -2,6 +2,7 @@ import React,{ useEffect, useState } from "react"
 import Navbar from "../components/Navbar"
 import Hero from "../components/Hero"
 import CourseList from "../components/CourseList"
+import SearchBar from "../components/SearchBar"
 import Footer from "../components/Footer"
 import { fetchCourses } from "../services/api"
 
@@ -19,6 +20,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <CourseList courses={courses} />
+      <SearchBar/>
       <Footer />  
     </>
   )
