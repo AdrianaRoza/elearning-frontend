@@ -38,7 +38,7 @@ function Hero(){
             <div className="relative flex justify-center">
 
             {/* Círculo de fundo */}
-            <div className="w-72 h-72 md:w-80 md:h-80 bg-linear-to-b from-purple-300 to-pink-300 rounded-full flex items-center justify-center shadow-xl">
+            <div className="w-72 h-72 md:w-80 md:h-80 bg-linear-to-b from-pink-100 to-pink-300 rounded-full flex items-center justify-center shadow-xl">
               {/* IMAGEM PRINCIPAL */}
               <img
                 src="https://images.pexels.com/photos/5908728/pexels-photo-5908728.jpeg"
@@ -49,7 +49,7 @@ function Hero(){
 
             {/* Cartão Flutuante 1 */}
             <div className="absolute -top-4 right-0 bg-white rounded-xl shadow-lg px-4 py-2 flex items-center gap-2">
-              <div className="w-10 h-10 bg-purple-200 rounded-md"></div>
+              <div className="w-10 h-10 bg-pink-300 rounded-md"></div>
               <span className="font-semibold text-gray-700 text-sm">Visual Design</span>
             </div>
 
