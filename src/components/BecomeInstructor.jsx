@@ -21,7 +21,7 @@ export default function BecomeInstructor(){
             Se você for um profissional certificado
           </h2>
 
-          <p className="text-gray-600 mb-6">
+          <p className="text-gray-700 mb-6">
             Junte-se à nossa plataforma global e ensine milhares de alunos em todo o mundo.
             Compartilhe seu conhecimento, construa seu público e aumente sua renda fazendo o que você ama.
           </p>
