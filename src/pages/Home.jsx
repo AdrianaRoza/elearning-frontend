@@ -7,6 +7,7 @@ import Footer from "../components/Footer"
 import { fetchCourses } from "../services/api"
 import Benefits from "../components/Benefits"
 import BecomeInstructor from "../components/BecomeInstructor"
+import Testimonials from "../components/Testimonials"
 
 
 
@@ -25,6 +26,7 @@ export default function Home() {
       <Benefits/>
       <CourseList courses={courses} />
       <BecomeInstructor/>
+      <Testimonials/>
       <Footer />  
     </>
   )
