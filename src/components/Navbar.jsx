@@ -1,20 +1,29 @@
-import Reac from "react"
+import { Link } from "react-router-dom"
 
-function Navbar(){
-    return(
-        <nav className="px-6 py-4 flex items-center justify-between test-blue max-w-6xl mx-auto">
-            <div className="text-2xl font-bold text-gray-900">Learnify</div>
-            <div className="hidden md:flex gap-6">
-                <a href="#courses" className="hover:underline">Cursos</a>
-                <a href="#popular" className="hover:underline">Popular</a>
-                <a href="#about" className="hover:underline">Sobre</a>
-            </div>
-            <div className="flex items-center gap-3">
-                <button className="px-4 py-2 rounded-md border">Entrar</button>
-                <button className="px-4 py-2 rounded-md bg-white text-pink-700">Comece grátis</button>
-            </div>
+export default function Navbar() {
+  return (
+    <nav className="flex justify-between items-center p-6">
+      <h1 className="text-3xl font-bold">Learnify</h1>
 
-        </nav>
-    )
+      <div className="flex gap-6 text-lg font-medium">
+        <Link to="/">Home</Link>
+        <Link to="/cursos">Cursos</Link>
+        <Link to="/popular">Popular</Link>
+        <Link to="/sobre">Sobre</Link>
+      </div>
+
+      <div className="flex gap-4">
+        <Link to="/login" className="px-4 py-2 border rounded-lg">
+          Entrar
+        </Link>
+
+        <Link
+          to="/registro"
+          className="px-4 py-2 rounded-lg bg-pink-600 text-white"
+        >
+          Comece grátis
+        </Link>
+      </div>
+    </nav>
+  )
 }
-export default Navbar
